@@ -1,4 +1,4 @@
-# Painel de Investimentos
+# Painel de Investimentos - Caixaverso
 
 API REST para simulação e acompanhamento de investimentos, com autenticação JWT,
 recomendação de produtos por perfil de risco e registro de telemetria.
