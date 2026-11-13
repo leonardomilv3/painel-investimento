@@ -1,5 +1,12 @@
-*
-!target/*-runner
-!target/*-runner.jar
-!target/lib/*
-!target/quarkus-app/*
+# O build roda dentro do Docker (multi-stage): enviar o codigo-fonte, ignorar o resto.
+target/
+.git/
+.github/
+.vscode/
+.idea/
+*.iml
+.env
+.env.*
+docker-compose.yml
+README.md
+pom2.xml
