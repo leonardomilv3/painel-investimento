@@ -44,4 +44,4 @@ jobs:
       - name: Aguardar boot e validar health
         run: |
           sleep 180
-          curl -f https://eventing-api.onrender.com/q/health/ready || exit 1
+          curl -f hhttps://painel-investimento.onrender.com/q/health/ready || exit 1
